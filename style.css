@@ -152,9 +152,7 @@ a{
 h2{margin-top:1rem;}
 .big-text{font-size:3rem;}
 
-
-.flex-flip-sm{flex-direction: column-reverse;}
-
+.flip-column{flex-direction: column-reverse;}
 
 
 }
