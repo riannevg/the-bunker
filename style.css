@@ -1,6 +1,7 @@
 
 /* Color Codes
-Dark Blue:#130f40
+Dark Green:#1C2A2C
+Footer dark:#24282B
  */
 
 
@@ -30,7 +31,7 @@ body{
 .tall-40{min-height:40vh;}
 .tall-30{min-height:30vh;}
 
-.uppercase{text-transform: uppercase;}
+
 
 
 
@@ -44,6 +45,7 @@ h2, h3, h4, h5, h6{
     font-size:2rem;
     font-weight:800;
     margin-bottom:1rem;
+    text-transform:uppercase;
 }
 
 .white{
@@ -56,16 +58,27 @@ header h2{
     font-weight:900;
     color:white;}
 
-p{
+footer h2{
+    font-size:6vw;
+}
+
+p, a{
     font-weight:300;
     line-height:1.5;
     font-size:1rem;
 }
 
+i{
+    font-size:2rem;
+    color:white;
+    padding:1%;
+}
+
+
 
 /******************************************************* Image and background classes ****************************************/
 .bg-dark{
-    background-color: #130f40;
+    background-color: #1C2A2C;
     color:white;
 }
 
@@ -76,7 +89,7 @@ p{
 .bg-image{
     background:url('/images/the-bunker-building.jpg');
     background-size:cover;
-    background-color:#130f40;
+    background-color:#1C2A2C;
     background-repeat: no-repeat;
     background-position:center;
     opacity:0.75;
@@ -109,5 +122,5 @@ p{
     background-image:url('/images/the-bunker-leaf.jpg');
 }
 
-
+.map{background-image:url('/images/map.PNG')}
 /******************************************************* Media Queries *****************************************************/
