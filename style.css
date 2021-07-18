@@ -145,3 +145,22 @@ a{
 
 .map{background-image:url('/images/map.PNG')}
 /******************************************************* Media Queries *****************************************************/
+
+
+@media(max-width:48em){
+
+h2{margin-top:1rem;}
+.big-text{font-size:3rem;}
+
+
+.flex-flip-sm{flex-direction: column-reverse;}
+
+
+
+}
+
+
+
+@media(max-width:36em){
+    .hide-xs{display:none;}
+}
